@@ -1,3 +1,8 @@
+history.scrollRestoration = "manual";
+
+window.addEventListener("load", () => {
+    window.scrollTo(0, 0);
+});
 // CV download button
 const cvBtn = document.getElementById('cv-btn');
 if (cvBtn) {
