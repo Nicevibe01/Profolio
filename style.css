@@ -141,7 +141,7 @@ header{
     header{
         flex-direction: row;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
         margin: 3rem 2rem;
         margin-bottom: 1rem;
         height: 200px;
@@ -153,6 +153,7 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient( to right, var(--lblue) 1px, var(--color), var(--lblue));
     background-clip: text;
+    background-size: 100% 100%;
     color: transparent;
     padding: 0;
     font-weight: 500;
@@ -160,9 +161,8 @@ header{
 
 
 @media(min-width: 750px){
-    .content{
-        top: -120px;
-    }
+    
+    
 }
 .profile-image{
     position: relative;
