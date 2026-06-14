@@ -23,6 +23,9 @@ if (navToggle && navMenu) {
         navMenu.classList.toggle('open');
     });
 }
+window.onload = () => {
+    window.scrollTo(0, 0);
+};
 
 // Smooth scroll for nav links + close menu on click
 document.querySelectorAll('nav a').forEach(link => {
