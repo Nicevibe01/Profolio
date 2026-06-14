@@ -483,6 +483,52 @@ input:focus{
     background-color: var(--transparent);
     transform: scale(1.03);
 }
+.footer{
+    margin: 4rem 2rem 2rem;
+    background: var(--transparent);
+    border: 0.1px var(--llblue) solid;
+    outline: 2px #02010228 solid;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content h3{
+    color: var(--lblue2);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.footer-content p{
+    color: var(--color);
+    font-size: 0.9rem;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.footer-links a{
+    color: var(--color);
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover{
+    color: var(--lblue2);
+}
+
+.copyright{
+    border-top: 1px solid var(--llblue);
+    padding-top: 1rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #cfcfcf;
+}
 
 .first{
     grid-column: 1/2;
